@@ -12,11 +12,12 @@ console.log(countEl)
 function increment() {
     count = count + 1 //same as count += 1
     console.log(count)
-    countEl.innerText=count
+    countEl.textContent=count // textContent in place of innerText
 }
 
 function save() {
-   let savedN = " "+ count + " - "
-   saveEl.innerText += savedN
-   console.log(count)
+   let savedN = count + " - "
+   saveEl.textContent += savedN //textContent in place of innerText
+   countEl.textContent = 0
+   count = 0
 }
