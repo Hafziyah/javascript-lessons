@@ -1,3 +1,12 @@
+alert("Hey!")
+const COLOR_RED = "#F00"
+let color = COLOR_RED
+ 
+let hello ="Hello there!"
+let message;
+message = hello
+console.log(message)
+
 document.getElementById("count-el").innerText = 0
 
 let count = 0
